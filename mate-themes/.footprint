@@ -3385,6 +3385,7 @@ drwxr-xr-x	root/root	usr/share/icons/mate/cursors/
 -rw-r--r--	root/root	usr/share/icons/mate/cursors/bottom_tee
 -rw-r--r--	root/root	usr/share/icons/mate/cursors/c7088f0f3e6c8088236ef8e1e3e70000
 -rw-r--r--	root/root	usr/share/icons/mate/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/mate/cursors/color-picker
 -rw-r--r--	root/root	usr/share/icons/mate/cursors/copy
 -rw-r--r--	root/root	usr/share/icons/mate/cursors/cross
 -rw-r--r--	root/root	usr/share/icons/mate/cursors/cross_reverse
@@ -4126,6 +4127,8 @@ drwxr-xr-x	root/root	usr/share/themes/BlueMenta/xfwm4/
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/xfwm4/top-right-active-shaded.xpm
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/xfwm4/top-right-active.xpm
 -rw-r--r--	root/root	usr/share/themes/BlueMenta/xfwm4/top-right-inactive.xpm
+drwxr-xr-x	root/root	usr/share/themes/ContrastHigh/
+-rw-r--r--	root/root	usr/share/themes/ContrastHigh/index.theme
 drwxr-xr-x	root/root	usr/share/themes/ContrastHighInverse/
 drwxr-xr-x	root/root	usr/share/themes/ContrastHighInverse/gtk-2.0/
 -rw-r--r--	root/root	usr/share/themes/ContrastHighInverse/gtk-2.0/gtkrc
@@ -4945,6 +4948,9 @@ drwxr-xr-x	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/
 -rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/menuitem-radio-checked.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/menuitem-radio-hover.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/menuitem-radio-insensitive.png
+-rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/menuitem-radio-mixed-hover.png
+-rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/menuitem-radio-mixed-insensitive.png
+-rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/menuitem-radio-mixed.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/menuitem-radio.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/pane-separator-grip-horz.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalGreen/gtk-3.0/img/pane-separator-grip-vert.png
@@ -5014,6 +5020,9 @@ drwxr-xr-x	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/
 -rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/menuitem-radio-checked.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/menuitem-radio-hover.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/menuitem-radio-insensitive.png
+-rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/menuitem-radio-mixed-hover.png
+-rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/menuitem-radio-mixed-insensitive.png
+-rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/menuitem-radio-mixed.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/menuitem-radio.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/pane-separator-grip-horz.png
 -rw-r--r--	root/root	usr/share/themes/TraditionalOk/gtk-3.0/img/pane-separator-grip-vert.png

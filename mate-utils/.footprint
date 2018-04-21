@@ -92,35 +92,35 @@ drwxr-xr-x	root/root	usr/share/help/C/mate-system-log/figures/
 drwxr-xr-x	root/root	usr/share/help/ca/
 drwxr-xr-x	root/root	usr/share/help/ca/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/ca/mate-dictionary/figures/
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-add-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-application.png -> ../../../C/mate-dictionary/figures/mate-dictionary-application.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-find.png -> ../../../C/mate-dictionary/figures/mate-dictionary-find.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-lookup.png -> ../../../C/mate-dictionary/figures/mate-dictionary-lookup.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-preferences-print.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-print.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-preferences-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-source.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-add-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-add-source.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-application.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-application.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-find.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-find.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-lookup.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-lookup.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-preferences-print.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-print.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-dictionary/figures/mate-dictionary-preferences-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-source.png
 -rw-r--r--	root/root	usr/share/help/ca/mate-dictionary/index.docbook
 -rw-r--r--	root/root	usr/share/help/ca/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ca/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/ca/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/ca/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ca/mate-search-tool/
 drwxr-xr-x	root/root	usr/share/help/ca/mate-search-tool/figures/
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-search-tool/figures/mate-search-tool_window.png -> ../../../C/mate-search-tool/figures/mate-search-tool_window.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-search-tool/figures/mate-search-tool_window.png -> /usr/share/help/C/mate-search-tool/figures/mate-search-tool_window.png
 -rw-r--r--	root/root	usr/share/help/ca/mate-search-tool/index.docbook
 -rw-r--r--	root/root	usr/share/help/ca/mate-search-tool/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ca/mate-system-log/
 drwxr-xr-x	root/root	usr/share/help/ca/mate-system-log/figures/
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-system-log/figures/syslog_window.png -> ../../../C/mate-system-log/figures/syslog_window.png
+lrwxrwxrwx	root/root	usr/share/help/ca/mate-system-log/figures/syslog_window.png -> /usr/share/help/C/mate-system-log/figures/syslog_window.png
 -rw-r--r--	root/root	usr/share/help/ca/mate-system-log/index.docbook
 -rw-r--r--	root/root	usr/share/help/ca/mate-system-log/legal.xml
 drwxr-xr-x	root/root	usr/share/help/cs/
@@ -138,13 +138,13 @@ drwxr-xr-x	root/root	usr/share/help/cs/mate-dictionary/figures/
 -rw-r--r--	root/root	usr/share/help/cs/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/cs/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/cs/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/cs/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/cs/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/cs/mate-search-tool/
@@ -160,25 +160,25 @@ drwxr-xr-x	root/root	usr/share/help/cs/mate-system-log/figures/
 drwxr-xr-x	root/root	usr/share/help/da/
 drwxr-xr-x	root/root	usr/share/help/da/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/da/mate-dictionary/figures/
-lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-add-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-application.png -> ../../../C/mate-dictionary/figures/mate-dictionary-application.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-find.png -> ../../../C/mate-dictionary/figures/mate-dictionary-find.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-lookup.png -> ../../../C/mate-dictionary/figures/mate-dictionary-lookup.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-preferences-print.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-print.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-preferences-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-source.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-add-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-add-source.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-application.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-application.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-find.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-find.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-lookup.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-lookup.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-preferences-print.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-print.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-dictionary/figures/mate-dictionary-preferences-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-source.png
 -rw-r--r--	root/root	usr/share/help/da/mate-dictionary/index.docbook
 -rw-r--r--	root/root	usr/share/help/da/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/da/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/da/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/da/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/da/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/de/
@@ -186,7 +186,7 @@ drwxr-xr-x	root/root	usr/share/help/de/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/de/mate-dictionary/figures/
 -rw-r--r--	root/root	usr/share/help/de/mate-dictionary/figures/mate-dictionary-add-source.png
 -rw-r--r--	root/root	usr/share/help/de/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/de/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
 -rw-r--r--	root/root	usr/share/help/de/mate-dictionary/figures/mate-dictionary-application.png
 -rw-r--r--	root/root	usr/share/help/de/mate-dictionary/figures/mate-dictionary-find.png
 -rw-r--r--	root/root	usr/share/help/de/mate-dictionary/figures/mate-dictionary-lookup.png
@@ -199,9 +199,9 @@ drwxr-xr-x	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/
 -rw-r--r--	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_fullscan.png
 -rw-r--r--	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_prefs.png
 -rw-r--r--	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
 -rw-r--r--	root/root	usr/share/help/de/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/de/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/de/mate-disk-usage-analyzer/legal.xml
@@ -218,14 +218,14 @@ drwxr-xr-x	root/root	usr/share/help/de/mate-system-log/figures/
 drwxr-xr-x	root/root	usr/share/help/el/
 drwxr-xr-x	root/root	usr/share/help/el/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/el/mate-dictionary/figures/
-lrwxrwxrwx	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-add-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-add-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-add-source.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
 -rw-r--r--	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-application.png
 -rw-r--r--	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-find.png
 -rw-r--r--	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-lookup.png
 -rw-r--r--	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-preferences-print.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-preferences-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-source.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-dictionary/figures/mate-dictionary-preferences-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-source.png
 -rw-r--r--	root/root	usr/share/help/el/mate-dictionary/index.docbook
 -rw-r--r--	root/root	usr/share/help/el/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/el/mate-disk-usage-analyzer/
@@ -233,9 +233,9 @@ drwxr-xr-x	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/
 -rw-r--r--	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_fullscan.png
 -rw-r--r--	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_prefs.png
 -rw-r--r--	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
 -rw-r--r--	root/root	usr/share/help/el/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/el/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/el/mate-disk-usage-analyzer/legal.xml
@@ -246,41 +246,41 @@ drwxr-xr-x	root/root	usr/share/help/el/mate-search-tool/figures/
 -rw-r--r--	root/root	usr/share/help/el/mate-search-tool/legal.xml
 drwxr-xr-x	root/root	usr/share/help/el/mate-system-log/
 drwxr-xr-x	root/root	usr/share/help/el/mate-system-log/figures/
-lrwxrwxrwx	root/root	usr/share/help/el/mate-system-log/figures/syslog_window.png -> ../../../C/mate-system-log/figures/syslog_window.png
+lrwxrwxrwx	root/root	usr/share/help/el/mate-system-log/figures/syslog_window.png -> /usr/share/help/C/mate-system-log/figures/syslog_window.png
 -rw-r--r--	root/root	usr/share/help/el/mate-system-log/index.docbook
 -rw-r--r--	root/root	usr/share/help/el/mate-system-log/legal.xml
 drwxr-xr-x	root/root	usr/share/help/en_GB/
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-dictionary/figures/
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-add-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-application.png -> ../../../C/mate-dictionary/figures/mate-dictionary-application.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-find.png -> ../../../C/mate-dictionary/figures/mate-dictionary-find.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-lookup.png -> ../../../C/mate-dictionary/figures/mate-dictionary-lookup.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-preferences-print.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-print.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-preferences-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-source.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-add-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-add-source.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-application.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-application.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-find.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-find.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-lookup.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-lookup.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-preferences-print.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-print.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-dictionary/figures/mate-dictionary-preferences-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-source.png
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-dictionary/index.docbook
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-search-tool/
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-search-tool/figures/
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-search-tool/figures/mate-search-tool_window.png -> ../../../C/mate-search-tool/figures/mate-search-tool_window.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-search-tool/figures/mate-search-tool_window.png -> /usr/share/help/C/mate-search-tool/figures/mate-search-tool_window.png
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-search-tool/index.docbook
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-search-tool/legal.xml
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-system-log/
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-system-log/figures/
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-system-log/figures/syslog_window.png -> ../../../C/mate-system-log/figures/syslog_window.png
+lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-system-log/figures/syslog_window.png -> /usr/share/help/C/mate-system-log/figures/syslog_window.png
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-system-log/index.docbook
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-system-log/legal.xml
 drwxr-xr-x	root/root	usr/share/help/es/
@@ -288,7 +288,7 @@ drwxr-xr-x	root/root	usr/share/help/es/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/es/mate-dictionary/figures/
 -rw-r--r--	root/root	usr/share/help/es/mate-dictionary/figures/mate-dictionary-add-source.png
 -rw-r--r--	root/root	usr/share/help/es/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/es/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/es/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
 -rw-r--r--	root/root	usr/share/help/es/mate-dictionary/figures/mate-dictionary-application.png
 -rw-r--r--	root/root	usr/share/help/es/mate-dictionary/figures/mate-dictionary-find.png
 -rw-r--r--	root/root	usr/share/help/es/mate-dictionary/figures/mate-dictionary-lookup.png
@@ -301,7 +301,7 @@ drwxr-xr-x	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/
 -rw-r--r--	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/baobab_fullscan.png
 -rw-r--r--	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/baobab_prefs.png
 -rw-r--r--	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
 -rw-r--r--	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
 -rw-r--r--	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/baobab_treemaps.png
 -rw-r--r--	root/root	usr/share/help/es/mate-disk-usage-analyzer/figures/baobab_window.png
@@ -335,8 +335,8 @@ drwxr-xr-x	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/
 -rw-r--r--	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_fullscan.png
 -rw-r--r--	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_prefs.png
 -rw-r--r--	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
 -rw-r--r--	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_treemaps.png
 -rw-r--r--	root/root	usr/share/help/eu/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/eu/mate-disk-usage-analyzer/index.docbook
@@ -369,8 +369,8 @@ drwxr-xr-x	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/
 -rw-r--r--	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_fullscan.png
 -rw-r--r--	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_prefs.png
 -rw-r--r--	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
 -rw-r--r--	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_treemaps.png
 -rw-r--r--	root/root	usr/share/help/fi/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/fi/mate-disk-usage-analyzer/index.docbook
@@ -403,7 +403,7 @@ drwxr-xr-x	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/
 -rw-r--r--	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/baobab_fullscan.png
 -rw-r--r--	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/baobab_prefs.png
 -rw-r--r--	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
 -rw-r--r--	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
 -rw-r--r--	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/baobab_treemaps.png
 -rw-r--r--	root/root	usr/share/help/fr/mate-disk-usage-analyzer/figures/baobab_window.png
@@ -423,8 +423,8 @@ drwxr-xr-x	root/root	usr/share/help/it/
 drwxr-xr-x	root/root	usr/share/help/it/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/it/mate-dictionary/figures/
 -rw-r--r--	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
 -rw-r--r--	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-application.png
 -rw-r--r--	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-find.png
 -rw-r--r--	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-lookup.png
@@ -434,13 +434,13 @@ lrwxrwxrwx	root/root	usr/share/help/it/mate-dictionary/figures/mate-dictionary-a
 -rw-r--r--	root/root	usr/share/help/it/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/it/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/it/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/it/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/it/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/it/mate-search-tool/
@@ -467,60 +467,60 @@ drwxr-xr-x	root/root	usr/share/help/ko/mate-system-log/figures/
 drwxr-xr-x	root/root	usr/share/help/oc/
 drwxr-xr-x	root/root	usr/share/help/oc/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/oc/mate-dictionary/figures/
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-add-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-application.png -> ../../../C/mate-dictionary/figures/mate-dictionary-application.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-find.png -> ../../../C/mate-dictionary/figures/mate-dictionary-find.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-lookup.png -> ../../../C/mate-dictionary/figures/mate-dictionary-lookup.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-preferences-print.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-print.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-preferences-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-source.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-add-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-add-source.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-application.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-application.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-find.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-find.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-lookup.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-lookup.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-preferences-print.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-print.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-dictionary/figures/mate-dictionary-preferences-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-source.png
 -rw-r--r--	root/root	usr/share/help/oc/mate-dictionary/index.docbook
 -rw-r--r--	root/root	usr/share/help/oc/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/oc/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/oc/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/oc/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/oc/mate-search-tool/
 drwxr-xr-x	root/root	usr/share/help/oc/mate-search-tool/figures/
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-search-tool/figures/mate-search-tool_window.png -> ../../../C/mate-search-tool/figures/mate-search-tool_window.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-search-tool/figures/mate-search-tool_window.png -> /usr/share/help/C/mate-search-tool/figures/mate-search-tool_window.png
 -rw-r--r--	root/root	usr/share/help/oc/mate-search-tool/index.docbook
 -rw-r--r--	root/root	usr/share/help/oc/mate-search-tool/legal.xml
 drwxr-xr-x	root/root	usr/share/help/oc/mate-system-log/
 drwxr-xr-x	root/root	usr/share/help/oc/mate-system-log/figures/
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-system-log/figures/syslog_window.png -> ../../../C/mate-system-log/figures/syslog_window.png
+lrwxrwxrwx	root/root	usr/share/help/oc/mate-system-log/figures/syslog_window.png -> /usr/share/help/C/mate-system-log/figures/syslog_window.png
 -rw-r--r--	root/root	usr/share/help/oc/mate-system-log/index.docbook
 -rw-r--r--	root/root	usr/share/help/oc/mate-system-log/legal.xml
 drwxr-xr-x	root/root	usr/share/help/pl/
 drwxr-xr-x	root/root	usr/share/help/pl/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/pl/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/pl/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/pl/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ru/
 drwxr-xr-x	root/root	usr/share/help/ru/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/ru/mate-dictionary/figures/
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-add-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-application.png -> ../../../C/mate-dictionary/figures/mate-dictionary-application.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-find.png -> ../../../C/mate-dictionary/figures/mate-dictionary-find.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-lookup.png -> ../../../C/mate-dictionary/figures/mate-dictionary-lookup.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-preferences-print.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-print.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-preferences-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-source.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-add-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-add-source.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-application.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-application.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-find.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-find.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-lookup.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-lookup.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-preferences-print.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-print.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-dictionary/figures/mate-dictionary-preferences-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-source.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-dictionary/index.docbook
 -rw-r--r--	root/root	usr/share/help/ru/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ru/mate-disk-usage-analyzer/
@@ -528,31 +528,31 @@ drwxr-xr-x	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/
 -rw-r--r--	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_fullscan.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_prefs.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/ru/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ru/mate-search-tool/
 drwxr-xr-x	root/root	usr/share/help/ru/mate-search-tool/figures/
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-search-tool/figures/mate-search-tool_window.png -> ../../../C/mate-search-tool/figures/mate-search-tool_window.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-search-tool/figures/mate-search-tool_window.png -> /usr/share/help/C/mate-search-tool/figures/mate-search-tool_window.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-search-tool/index.docbook
 -rw-r--r--	root/root	usr/share/help/ru/mate-search-tool/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ru/mate-system-log/
 drwxr-xr-x	root/root	usr/share/help/ru/mate-system-log/figures/
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-system-log/figures/syslog_window.png -> ../../../C/mate-system-log/figures/syslog_window.png
+lrwxrwxrwx	root/root	usr/share/help/ru/mate-system-log/figures/syslog_window.png -> /usr/share/help/C/mate-system-log/figures/syslog_window.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-system-log/index.docbook
 -rw-r--r--	root/root	usr/share/help/ru/mate-system-log/legal.xml
 drwxr-xr-x	root/root	usr/share/help/sv/
 drwxr-xr-x	root/root	usr/share/help/sv/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/sv/mate-dictionary/figures/
 -rw-r--r--	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-application.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-find.png -> ../../../C/mate-dictionary/figures/mate-dictionary-find.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-lookup.png -> ../../../C/mate-dictionary/figures/mate-dictionary-lookup.png
+lrwxrwxrwx	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-find.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-find.png
+lrwxrwxrwx	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-lookup.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-lookup.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-preferences-print.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-dictionary/figures/mate-dictionary-preferences-source.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-dictionary/index.docbook
@@ -562,9 +562,9 @@ drwxr-xr-x	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/
 -rw-r--r--	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_fullscan.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_prefs.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/sv/mate-disk-usage-analyzer/legal.xml
@@ -615,59 +615,59 @@ drwxr-xr-x	root/root	usr/share/help/uk/mate-system-log/figures/
 drwxr-xr-x	root/root	usr/share/help/zh_CN/
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-dictionary/
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-dictionary/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-add-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-add-source.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-applet-window.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet-window.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-applet.png -> ../../../C/mate-dictionary/figures/mate-dictionary-applet.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-application.png -> ../../../C/mate-dictionary/figures/mate-dictionary-application.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-find.png -> ../../../C/mate-dictionary/figures/mate-dictionary-find.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-lookup.png -> ../../../C/mate-dictionary/figures/mate-dictionary-lookup.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-preferences-print.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-print.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-preferences-source.png -> ../../../C/mate-dictionary/figures/mate-dictionary-preferences-source.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-add-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-add-source.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-applet-window.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet-window.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-applet.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-applet.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-application.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-application.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-find.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-find.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-lookup.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-lookup.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-preferences-print.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-print.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-dictionary/figures/mate-dictionary-preferences-source.png -> /usr/share/help/C/mate-dictionary/figures/mate-dictionary-preferences-source.png
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-dictionary/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-dictionary/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-search-tool/
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-search-tool/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-search-tool/figures/mate-search-tool_window.png -> ../../../C/mate-search-tool/figures/mate-search-tool_window.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-search-tool/figures/mate-search-tool_window.png -> /usr/share/help/C/mate-search-tool/figures/mate-search-tool_window.png
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-search-tool/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-search-tool/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-system-log/
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-system-log/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-system-log/figures/syslog_window.png -> ../../../C/mate-system-log/figures/syslog_window.png
+lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-system-log/figures/syslog_window.png -> /usr/share/help/C/mate-system-log/figures/syslog_window.png
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-system-log/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-system-log/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_HK/
 drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_HK/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_TW/
 drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/
 drwxr-xr-x	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_prefs.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_prefs.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_remote.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_remote.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
-lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_window.png -> ../../../C/mate-disk-usage-analyzer/figures/baobab_window.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_fullscan.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_fullscan.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_prefs.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_prefs.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_remote.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_remote.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_ringschart1.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart1.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_ringschart2.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_ringschart2.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_treemaps.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_treemaps.png
+lrwxrwxrwx	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/figures/baobab_window.png -> /usr/share/help/C/mate-disk-usage-analyzer/figures/baobab_window.png
 -rw-r--r--	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_TW/mate-disk-usage-analyzer/legal.xml
 drwxr-xr-x	root/root	usr/share/icons/

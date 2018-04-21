@@ -1,0 +1,17 @@
+# Description: MATE Desktop meta-port
+# URL: http://www.mate-desktop.org/
+# Maintainer: Matt Housh, jaeger at crux dot ninja
+# Depends on: atril engrampa eom mate-applets mate-calc mate-icon-theme-faenza mate-media mate-netbook mate-power-manager mate-screensaver mate-sensors-applet mate-system-monitor mate-terminal mate-utils mozo pluma
+# Optional: mate-sensors-applet
+
+name=mate-extra
+version=1.20
+release=1
+source=()
+
+build() {
+  install -d -m 0755 $PKG/etc
+  echo "MATE extra$version" >> $PKG/etc/mate_version
+}
+
+# vim: set ts=2 et:

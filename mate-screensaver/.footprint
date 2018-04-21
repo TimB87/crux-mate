@@ -4,6 +4,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/mate-screensaver-command
 -rwxr-xr-x	root/root	usr/bin/mate-screensaver-preferences
 drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/pam.d/
+-rw-r--r--	root/root	usr/etc/pam.d/mate-screensaver
 drwxr-xr-x	root/root	usr/etc/xdg/
 drwxr-xr-x	root/root	usr/etc/xdg/autostart/
 -rw-r--r--	root/root	usr/etc/xdg/autostart/mate-screensaver.desktop
