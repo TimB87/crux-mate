@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/volume_key
+
+Name: libvolume_key
+Description: Development libraries for libvolume_key
+Version: @UPSTREAM_VER@
+Libs: -L${libdir} -lvolume_key -lrt -ldl
+Cflags:
+URL: https://pagure.io/volume_key

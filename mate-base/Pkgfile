@@ -1,0 +1,17 @@
+# Description: MATE Desktop meta-port
+# URL: http://www.mate-desktop.org/
+# Maintainer: Matt Housh, jaeger at crux dot ninja
+# Depends on: caja marco mate-backgrounds mate-control-center mate-desktop mate-icon-theme mate-menus mate-notification-daemon mate-panel mate-polkit mate-session-manager mate-themes
+# Optional: mate-sensors-applet
+
+name=mate-base
+version=1.20
+release=1
+source=()
+
+build() {
+  install -d -m 0755 $PKG/etc
+  echo "MATE $version" > $PKG/etc/mate_version
+}
+
+# vim: set ts=2 et:

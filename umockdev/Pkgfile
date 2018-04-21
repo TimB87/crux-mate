@@ -1,0 +1,17 @@
+# Description: Mock hardware devices for creating unit tests and bug reporting
+# URL: https://github.com/martinpitt/umockdev
+# Maintainer: 
+# Depends on:
+
+name=umockdev
+version=0.11.2
+release=1
+source=(https://github.com/martinpitt/umockdev/releases/download/0.11.2/umockdev-0.11.2.tar.xz)
+
+build() {
+	cd $name-$version
+    ./configure --prefix=/usr \
+        --enable-introspection
+    make
+    make DESTDIR=$PKG install
+}
