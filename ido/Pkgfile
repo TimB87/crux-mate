@@ -1,0 +1,20 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=ido
+version=12.10.2
+release=1
+source=(https://launchpad.net/ido/12.10/$version/+download/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    
+    export CFLAGS="$CFLAGS -Wno-deprecated-declarations"
+
+    ./configure --prefix=/usr \
+                --disable-nls
+    make
+    make DESTDIR=$PKG install
+}

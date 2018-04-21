@@ -4,7 +4,7 @@
 # Depends on: gtk3 glibmm pangomm atkmm
 
 name=gtkmm3
-version=3.18.1
+version=3.22.2
 release=1
 source=(http://download.gnome.org/sources/gtkmm/${version:0:4}/gtkmm-$version.tar.xz)
 

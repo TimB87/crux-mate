@@ -1,0 +1,21 @@
+# Description: user-friendly dm-crypt/LUKS interface
+# URL: https://gitlab.com/cryptsetup/cryptsetup
+# Maintainer:  Thomas Penteker, tek at serverop dot de
+# Packager: Tilman Sauerbeck, tilman at crux dot nu
+# Depends on: libdevmapper, argon2, libgcrypt, popt, device-mapper
+
+name=cryptsetup
+version=2.0.2
+release=1
+source=(https://kernel.org/pub/linux/utils/$name/v2.0/$name-$version.tar.xz)
+
+build() {
+    cd $name-$version
+
+    ./configure \
+        --prefix=/usr --enable-libargon2 \
+        --with-crypto_backend=openssl
+
+    make
+    make DESTDIR=$PKG install
+}

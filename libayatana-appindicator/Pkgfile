@@ -1,0 +1,19 @@
+# Description: Ayatana Application Indicators Shared Library
+# URL: https://github.com/AyatanaIndicators/libayatana-appindicator
+# Maintainer:
+# Depends on:
+
+name=libayatana-appindicator
+version=0.5.3
+release=1
+source=(https://github.com/AyatanaIndicators/libayatana-appindicator/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    
+    ./autogen.sh
+    ./configure --prefix=/usr \
+            --disable-nls
+    make
+    make DESTDIR=$PKG install
+}

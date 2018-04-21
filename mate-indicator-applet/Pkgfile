@@ -1,10 +1,10 @@
 # Description: A small applet to display information from various applications in the MATE panel
 # URL: http://www.mate-desktop.org/
 # Maintainer: Matt Housh, jaeger at crux dot ninja
-# Depends on: libindicator mate-panel
+# Depends on: libindicator ido mate-panel
 
 name=mate-indicator-applet
-version=1.18.0
+version=1.20.0
 release=1
 source=(http://pub.mate-desktop.org/releases/${version:0:4}/$name-$version.tar.xz)
 

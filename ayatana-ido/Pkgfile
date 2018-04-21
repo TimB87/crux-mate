@@ -1,0 +1,19 @@
+# Description: Ayatana Indicator Display Objects
+# URL: https://github.com/AyatanaIndicators/ayatana-ido
+# Maintainer:
+# Depends on: 
+
+name=ayatana-ido
+version=0.4.2
+release=1
+source=(https://github.com/AyatanaIndicators/ayatana-ido/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+    ./autogen.sh
+    ./configure --prefix=/usr \
+                --disable-nls
+    make
+    make DESTDIR=$PKG install
+}

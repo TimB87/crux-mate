@@ -1,0 +1,31 @@
+# Description: A small little library that was created by pulling out some comon code out of indicator-applet
+# URL: https://launchpad.net/libdbusmenu
+# Maintainer:
+# Depends on:
+
+name=libdbusmenu
+version=16.04.0
+release=1
+source=(https://launchpad.net/libdbusmenu/16.04/16.04.0/+download/libdbusmenu-16.04.0.tar.gz)
+
+build() {
+	cd $name-$version
+
+      gtkdocize
+      autoreconf -vfi
+      intltoolize -f
+
+      # Python2 fix
+      sed -i "s|^\(#!.*python\)$|\12|" tools/dbusmenu-bench
+
+      # libdbusmenu-gtk2 won't install if libdbusmenu-glib is missing
+      sed -i 's|$(DBUSMENUGTK_CFLAGS)|$(DBUSMENUGTK_CFLAGS) -L../libdbusmenu-glib/.libs|' libdbusmenu-gtk/Makefile.{am,in}
+
+      mkdir build
+      pushd build
+      ../configure --prefix=/usr \
+                --disable-scrollkeeper \
+                --disable-static
+    make -j1
+    make -j1 DESTDIR=$PKG install
+}

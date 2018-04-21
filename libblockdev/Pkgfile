@@ -1,7 +1,7 @@
 # Description: A library for manipulating block devices 
 # URL: https://github.com/storaged-project/libblockdev
 # Maintainer:
-# Depends on: 
+# Depends on: parted, nss, nspr, libgpg-error, libffi, libassuan glib cryptsetup volume_key libbytesize device-mapper
 
 name=libblockdev
 version=git

@@ -31,54 +31,39 @@ drwxr-xr-x	root/root	usr/lib/gio/modules/
 -rwxr-xr-x	root/root	usr/lib/gio/modules/libgvfsdbus.la
 -rwxr-xr-x	root/root	usr/lib/gio/modules/libgvfsdbus.so
 drwxr-xr-x	root/root	usr/lib/gvfs/
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfs-gphoto2-volume-monitor
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfs-udisks2-volume-monitor
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-admin
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-afp
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-afp-browse
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-archive
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-burn
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-computer
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-dav
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-ftp
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-gphoto2
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-http
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-localtest
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-metadata
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-network
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-recent
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-sftp
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-smb
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-smb-browse
--rwxr-xr-x	root/root	usr/lib/gvfs/gvfsd-trash
 -rwxr-xr-x	root/root	usr/lib/gvfs/libgvfscommon.la
 -rwxr-xr-x	root/root	usr/lib/gvfs/libgvfscommon.so
 -rwxr-xr-x	root/root	usr/lib/gvfs/libgvfsdaemon.la
 -rwxr-xr-x	root/root	usr/lib/gvfs/libgvfsdaemon.so
+drwxr-xr-x	root/root	usr/libexec/
+-rwxr-xr-x	root/root	usr/libexec/gvfs-gphoto2-volume-monitor
+-rwxr-xr-x	root/root	usr/libexec/gvfs-udisks2-volume-monitor
+-rwxr-xr-x	root/root	usr/libexec/gvfsd
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-admin
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-afp
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-afp-browse
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-archive
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-burn
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-computer
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-dav
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-dnssd
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-ftp
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-fuse
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-gphoto2
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-http
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-localtest
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-metadata
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-network
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-recent
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-sftp
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-smb
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-smb-browse
+-rwxr-xr-x	root/root	usr/libexec/gvfsd-trash
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/GConf/
 drwxr-xr-x	root/root	usr/share/GConf/gsettings/
+-rw-r--r--	root/root	usr/share/GConf/gsettings/gvfs-dns-sd.convert
 -rw-r--r--	root/root	usr/share/GConf/gsettings/gvfs-smb.convert
-drwxr-xr-x	root/root	usr/share/bash-completion/
-drwxr-xr-x	root/root	usr/share/bash-completion/completions/
--rw-r--r--	root/root	usr/share/bash-completion/completions/gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-copy -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-info -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-less -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-ls -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-mkdir -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-monitor-dir -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-monitor-file -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-mount -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-move -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-open -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-rename -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-rm -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-save -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-set-attribute -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-trash -> gvfs-cat
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gvfs-tree -> gvfs-cat
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.gtk.vfs.Daemon.service
@@ -87,6 +72,7 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service
 drwxr-xr-x	root/root	usr/share/glib-2.0/
 drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
+-rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gnome.system.dns_sd.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gnome.system.gvfs.enums.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gnome.system.smb.gschema.xml
 drwxr-xr-x	root/root	usr/share/gvfs/
@@ -97,7 +83,9 @@ drwxr-xr-x	root/root	usr/share/gvfs/mounts/
 -rw-r--r--	root/root	usr/share/gvfs/mounts/archive.mount
 -rw-r--r--	root/root	usr/share/gvfs/mounts/burn.mount
 -rw-r--r--	root/root	usr/share/gvfs/mounts/computer.mount
+-rw-r--r--	root/root	usr/share/gvfs/mounts/dav+sd.mount
 -rw-r--r--	root/root	usr/share/gvfs/mounts/dav.mount
+-rw-r--r--	root/root	usr/share/gvfs/mounts/dns-sd.mount
 -rw-r--r--	root/root	usr/share/gvfs/mounts/ftp.mount
 -rw-r--r--	root/root	usr/share/gvfs/mounts/ftps.mount
 -rw-r--r--	root/root	usr/share/gvfs/mounts/gphoto2.mount

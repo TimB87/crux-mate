@@ -5,13 +5,14 @@
 # Optional: gobject-introspection
 
 name=libgudev
-version=230
-release=2
+version=232
+release=1
 source=(http://ftp.gnome.org/pub/gnome/sources/$name/$version/$name-$version.tar.xz)
 
 build() {
   cd $name-$version
-  ./configure --prefix=/usr
+  ./configure --prefix=/usr \
+            --disable-umockdev
   make
   make install DESTDIR=$PKG
 }

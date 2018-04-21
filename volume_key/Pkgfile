@@ -1,7 +1,7 @@
 # Description: A library for manipulating storage volume encryption keys
 # URL: https://pagure.io/volume_key
 # Maintainer:
-# Depends on:
+# Depends on: gpgme swig device-mapper cryptsetup libassuan libgcrypt libgpg-error nspr nss python
 
 name=volume_key
 version=git

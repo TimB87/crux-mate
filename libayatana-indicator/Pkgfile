@@ -1,0 +1,19 @@
+# Description: Ayatana Indicators Shared Library
+# URL: https://github.com/AyatanaIndicators/libayatana-indicator
+# Maintainer: 
+# Depends on: ayatana-ido
+
+name=libayatana-indicator
+version=0.6.2
+release=1
+source=(https://github.com/AyatanaIndicators/libayatana-indicator/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    
+    ./autogen.sh
+    ./configure --prefix=/usr \
+                --disable-nls
+    make
+    make DESTDIR=$PKG install
+}

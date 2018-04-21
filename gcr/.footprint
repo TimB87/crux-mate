@@ -36,6 +36,7 @@ drwxr-xr-x	root/root	usr/include/gcr-3/gcr/
 -rw-r--r--	root/root	usr/include/gcr-3/gcr/gcr-secure-memory.h
 -rw-r--r--	root/root	usr/include/gcr-3/gcr/gcr-simple-certificate.h
 -rw-r--r--	root/root	usr/include/gcr-3/gcr/gcr-simple-collection.h
+-rw-r--r--	root/root	usr/include/gcr-3/gcr/gcr-ssh-askpass.h
 -rw-r--r--	root/root	usr/include/gcr-3/gcr/gcr-system-prompt.h
 -rw-r--r--	root/root	usr/include/gcr-3/gcr/gcr-system-prompter.h
 -rw-r--r--	root/root	usr/include/gcr-3/gcr/gcr-trust.h
@@ -69,6 +70,7 @@ drwxr-xr-x	root/root	usr/include/gcr-3/ui/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/gcr/
 -rwxr-xr-x	root/root	usr/lib/gcr/gcr-prompter
+-rwxr-xr-x	root/root	usr/lib/gcr/gcr-ssh-askpass
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Gck-1.typelib
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Gcr-3.typelib
@@ -105,10 +107,6 @@ drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.gnome.keyring.PrivatePrompter.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.gnome.keyring.SystemPrompter.service
-drwxr-xr-x	root/root	usr/share/gcr-3/
-drwxr-xr-x	root/root	usr/share/gcr-3/ui/
--rw-r--r--	root/root	usr/share/gcr-3/ui/gcr-pkcs11-import-dialog.ui
--rw-r--r--	root/root	usr/share/gcr-3/ui/gcr-unlock-options-widget.ui
 drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/Gck-1.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/Gcr-3.gir
@@ -161,3 +159,12 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 drwxr-xr-x	root/root	usr/share/mime/
 drwxr-xr-x	root/root	usr/share/mime/packages/
 -rw-r--r--	root/root	usr/share/mime/packages/gcr-crypto-types.xml
+drwxr-xr-x	root/root	usr/share/vala/
+drwxr-xr-x	root/root	usr/share/vala/vapi/
+-rw-r--r--	root/root	usr/share/vala/vapi/gck-1.deps
+-rw-r--r--	root/root	usr/share/vala/vapi/gck-1.vapi
+-rw-r--r--	root/root	usr/share/vala/vapi/gcr-3.deps
+-rw-r--r--	root/root	usr/share/vala/vapi/gcr-3.vapi
+-rw-r--r--	root/root	usr/share/vala/vapi/gcr-ui-3.deps
+-rw-r--r--	root/root	usr/share/vala/vapi/gcr-ui-3.vapi
+-rw-r--r--	root/root	usr/share/vala/vapi/pkcs11.vapi

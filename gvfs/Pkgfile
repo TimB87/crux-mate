@@ -4,18 +4,16 @@
 # Depends on: glib gcr samba libgcrypt polkit docbook-xsl libgphoto2 udisks2
 
 name=gvfs
-version=1.30.3
+version=1.36.0
 release=2
 source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
 
 build() {
   cd $name-$version
-  ./configure --prefix=/usr \
-    --libexecdir=/usr/lib/$name \
-    --enable-udisks2 \
-    --disable-nls
-  make
-  make DESTDIR=$PKG install
+    ./autogen.sh --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+    rm -fr $PKG/usr/share/locale
 }
 
 # vim: set ts=2 et:
