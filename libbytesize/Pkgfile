@@ -1,10 +1,10 @@
-# Description:
-# URL:
+# Description: A tiny library providing a C "class" for working with arbitrary big sizes in bytes
+# URL: https://github.com/storaged-project/libbytesize
 # Maintainer:
 # Depends on:
 
 name=libbytesize
-version=1.2
+version=1.3
 release=1
 source=(https://github.com/rhinstaller/libbytesize/archive/$version/$name-$version.tar.gz)
 
@@ -13,7 +13,6 @@ build() {
     ./autogen.sh
     ./configure --prefix=/usr \
             --without-gtk-doc 
-        #    --with-python3
     make
     make DESTDIR=$PKG install
 }
