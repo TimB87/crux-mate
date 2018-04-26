@@ -4,35 +4,19 @@
 # Depends on: parted, nss, nspr, libgpg-error, libffi, libassuan glib cryptsetup volume_key libbytesize device-mapper
 
 name=libblockdev
-version=git
+version=2.17
 release=1
-source=(https://github.com/storaged-project/libblockdev/releases/download/2.16-1/libblockdev-2.16.tar.gz configure.patch)
-git=(https://github.com/storaged-project/libblockdev.git)
+source=(https://github.com/storaged-project/libblockdev/releases/download/$version-1/$name-$version.tar.gz)
 
 
 build() {
-#	cd $name-$version
-#    patch -Np1 < $SRC/configure.patch
-#  ./configure --prefix=/usr \
-#        --without-lvm_dbus \
-#        --without-dm \
-#        --without-lvm \
-#        --without-bcache \
-#        --without-gtk-doc
-    
-    git clone $git
-    cd $name
-    git fetch origin pull/334/head
-    git checkout -b pullrequest FETCH_HEAD
-    ./autogen.sh
-    ./configure --prefix=/usr \
+	cd $name-$version
+  ./configure --prefix=/usr \
         --without-lvm_dbus \
         --without-dm \
         --without-lvm \
         --without-bcache \
-        --without-gtk-doc \
-        --without-nvdimm 
-
+        --without-gtk-doc
     make
     make DESTDIR=$PKG install
 }

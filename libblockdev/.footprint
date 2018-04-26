@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/include/blockdev/fs/
 -rw-r--r--	root/root	usr/include/blockdev/mdraid.h
 -rw-r--r--	root/root	usr/include/blockdev/module.h
 -rw-r--r--	root/root	usr/include/blockdev/mpath.h
+-rw-r--r--	root/root	usr/include/blockdev/nvdimm.h
 -rw-r--r--	root/root	usr/include/blockdev/part.h
 -rw-r--r--	root/root	usr/include/blockdev/plugins.h
 -rw-r--r--	root/root	usr/include/blockdev/sizes.h
@@ -60,6 +61,10 @@ lrwxrwxrwx	root/root	usr/lib/libbd_mdraid.so.2 -> libbd_mdraid.so.2.0.0
 lrwxrwxrwx	root/root	usr/lib/libbd_mpath.so -> libbd_mpath.so.2.0.0
 lrwxrwxrwx	root/root	usr/lib/libbd_mpath.so.2 -> libbd_mpath.so.2.0.0
 -rwxr-xr-x	root/root	usr/lib/libbd_mpath.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libbd_nvdimm.la
+lrwxrwxrwx	root/root	usr/lib/libbd_nvdimm.so -> libbd_nvdimm.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libbd_nvdimm.so.2 -> libbd_nvdimm.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libbd_nvdimm.so.2.0.0
 -rwxr-xr-x	root/root	usr/lib/libbd_part.la
 lrwxrwxrwx	root/root	usr/lib/libbd_part.so -> libbd_part.so.2.0.0
 lrwxrwxrwx	root/root	usr/lib/libbd_part.so.2 -> libbd_part.so.2.0.0
