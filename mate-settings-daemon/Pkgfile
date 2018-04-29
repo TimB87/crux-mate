@@ -4,7 +4,7 @@
 # Depends on: libxklavier libmatekbd libmatemixer dbus-glib dconf mate-desktop polkit nss
 
 name=mate-settings-daemon
-version=1.20.0
+version=1.20.1
 release=1
 source=(http://pub.mate-desktop.org/releases/${version:0:4}/$name-$version.tar.xz)
 

@@ -15,6 +15,7 @@ build() {
     --disable-nls
   make
   make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/help
 }
 
 # vim: set ts=2 et:

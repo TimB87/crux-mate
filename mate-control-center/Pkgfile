@@ -4,7 +4,7 @@
 # Depends on: mate-settings-daemon shared-mime-info itstool mate-menus marco xorg-libxcursor glib mate-desktop pango librsvg
 
 name=mate-control-center
-version=1.20.0
+version=1.20.2
 release=1
 source=(http://pub.mate-desktop.org/releases/${version:0:4}/$name-$version.tar.xz)
 

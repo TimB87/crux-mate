@@ -17,8 +17,6 @@ drwxr-xr-x	root/root	usr/lib/mate-applets/
 -rwxr-xr-x	root/root	usr/lib/mate-applets/mate-cpufreq-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/mate-drivemount-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/mate-geyes-applet
--rwxr-xr-x	root/root	usr/lib/mate-applets/mate-multiload-applet
--rwxr-xr-x	root/root	usr/lib/mate-applets/mate-netspeed-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/mateweather-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/stickynotes-applet
 -rwxr-xr-x	root/root	usr/lib/mate-applets/timer-applet
@@ -34,8 +32,6 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.panel.applet.DriveMountAppletFactory.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.panel.applet.GeyesAppletFactory.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.panel.applet.MateWeatherAppletFactory.service
--rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.panel.applet.MultiLoadAppletFactory.service
--rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.panel.applet.NetspeedAppletFactory.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.panel.applet.StickyNotesAppletFactory.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.panel.applet.TimerAppletFactory.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.mate.panel.applet.TrashAppletFactory.service
@@ -49,8 +45,6 @@ drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.panel.applet.command.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.panel.applet.cpufreq.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.panel.applet.geyes.gschema.xml
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.panel.applet.multiload.gschema.xml
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.panel.applet.netspeed.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.panel.applet.timer.gschema.xml
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.mate.stickynotes.gschema.xml
 drwxr-xr-x	root/root	usr/share/help/
@@ -114,26 +108,6 @@ drwxr-xr-x	root/root	usr/share/help/C/mate-geyes/figures/
 -rw-r--r--	root/root	usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/C/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/C/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/C/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/C/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/C/mate-multiload/figures/multiload-preferences.png
--rw-r--r--	root/root	usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
--rw-r--r--	root/root	usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/C/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/C/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/C/mate-netspeed-applet/
-drwxr-xr-x	root/root	usr/share/help/C/mate-netspeed-applet/figures/
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/details.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/eth_sum_48.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/ethernet.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/loopback.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/netspeed_applet.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/plip.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/ppp.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/settings.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/figures/wavelan.png
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/index.docbook
--rw-r--r--	root/root	usr/share/help/C/mate-netspeed-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/C/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/C/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -289,13 +263,6 @@ drwxr-xr-x	root/root	usr/share/help/ca/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/ca/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/ca/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/ca/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/ca/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/ca/mate-multiload/figures/
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-multiload/figures/multiload-preferences.png -> /usr/share/help/C/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/ca/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/ca/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/ca/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ca/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/ca/mate-stickynotes-applet/figures/
 lrwxrwxrwx	root/root	usr/share/help/ca/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -388,13 +355,6 @@ drwxr-xr-x	root/root	usr/share/help/cs/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/cs/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/cs/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/cs/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/cs/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/cs/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/cs/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/cs/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/cs/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/cs/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/cs/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/cs/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/cs/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -516,26 +476,6 @@ drwxr-xr-x	root/root	usr/share/help/de/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/de/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/de/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/de/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/de/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/de/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/de/mate-multiload/figures/multiload-preferences.png
--rw-r--r--	root/root	usr/share/help/de/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/de/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/de/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/de/mate-netspeed-applet/
-drwxr-xr-x	root/root	usr/share/help/de/mate-netspeed-applet/figures/
--rw-r--r--	root/root	usr/share/help/de/mate-netspeed-applet/figures/details.png
--rw-r--r--	root/root	usr/share/help/de/mate-netspeed-applet/figures/eth_sum_48.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-netspeed-applet/figures/ethernet.png -> /usr/share/help/C/mate-netspeed-applet/figures/ethernet.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-netspeed-applet/figures/loopback.png -> /usr/share/help/C/mate-netspeed-applet/figures/loopback.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-netspeed-applet/figures/netspeed_applet.png -> /usr/share/help/C/mate-netspeed-applet/figures/netspeed_applet.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-netspeed-applet/figures/plip.png -> /usr/share/help/C/mate-netspeed-applet/figures/plip.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-netspeed-applet/figures/ppp.png -> /usr/share/help/C/mate-netspeed-applet/figures/ppp.png
--rw-r--r--	root/root	usr/share/help/de/mate-netspeed-applet/figures/settings.png
-lrwxrwxrwx	root/root	usr/share/help/de/mate-netspeed-applet/figures/wavelan.png -> /usr/share/help/C/mate-netspeed-applet/figures/wavelan.png
--rw-r--r--	root/root	usr/share/help/de/mate-netspeed-applet/index.docbook
--rw-r--r--	root/root	usr/share/help/de/mate-netspeed-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/de/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/de/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/de/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -628,26 +568,6 @@ drwxr-xr-x	root/root	usr/share/help/el/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/el/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/el/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/el/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/el/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/el/mate-multiload/figures/
-lrwxrwxrwx	root/root	usr/share/help/el/mate-multiload/figures/multiload-preferences.png -> /usr/share/help/C/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/el/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/el/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/el/mate-netspeed-applet/
-drwxr-xr-x	root/root	usr/share/help/el/mate-netspeed-applet/figures/
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/details.png -> /usr/share/help/C/mate-netspeed-applet/figures/details.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/eth_sum_48.png -> /usr/share/help/C/mate-netspeed-applet/figures/eth_sum_48.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/ethernet.png -> /usr/share/help/C/mate-netspeed-applet/figures/ethernet.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/loopback.png -> /usr/share/help/C/mate-netspeed-applet/figures/loopback.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/netspeed_applet.png -> /usr/share/help/C/mate-netspeed-applet/figures/netspeed_applet.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/plip.png -> /usr/share/help/C/mate-netspeed-applet/figures/plip.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/ppp.png -> /usr/share/help/C/mate-netspeed-applet/figures/ppp.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/settings.png -> /usr/share/help/C/mate-netspeed-applet/figures/settings.png
-lrwxrwxrwx	root/root	usr/share/help/el/mate-netspeed-applet/figures/wavelan.png -> /usr/share/help/C/mate-netspeed-applet/figures/wavelan.png
--rw-r--r--	root/root	usr/share/help/el/mate-netspeed-applet/index.docbook
--rw-r--r--	root/root	usr/share/help/el/mate-netspeed-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/el/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/el/mate-stickynotes-applet/figures/
 lrwxrwxrwx	root/root	usr/share/help/el/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -740,13 +660,6 @@ drwxr-xr-x	root/root	usr/share/help/en_GB/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/en_GB/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/en_GB/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/en_GB/mate-multiload/figures/
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-multiload/figures/multiload-preferences.png -> /usr/share/help/C/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/en_GB/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/en_GB/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/en_GB/mate-stickynotes-applet/figures/
 lrwxrwxrwx	root/root	usr/share/help/en_GB/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -839,13 +752,6 @@ drwxr-xr-x	root/root	usr/share/help/es/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/es/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/es/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/es/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/es/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/es/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/es/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/es/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/es/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/es/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/es/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/es/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/es/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/es/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -938,13 +844,6 @@ drwxr-xr-x	root/root	usr/share/help/eu/mate-geyes/figures/
 -rw-r--r--	root/root	usr/share/help/eu/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/eu/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/eu/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/eu/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/eu/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/eu/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/eu/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
--rw-r--r--	root/root	usr/share/help/eu/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/eu/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/eu/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/eu/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/eu/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/eu/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1037,13 +936,6 @@ drwxr-xr-x	root/root	usr/share/help/fi/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/fi/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/fi/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/fi/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/fi/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/fi/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/fi/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/fi/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
--rw-r--r--	root/root	usr/share/help/fi/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/fi/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/fi/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/fi/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/fi/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/fi/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1136,26 +1028,6 @@ drwxr-xr-x	root/root	usr/share/help/fr/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/fr/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/fr/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/fr/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/fr/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/fr/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/fr/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/fr/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/fr/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/fr/mate-netspeed-applet/
-drwxr-xr-x	root/root	usr/share/help/fr/mate-netspeed-applet/figures/
--rw-r--r--	root/root	usr/share/help/fr/mate-netspeed-applet/figures/details.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-netspeed-applet/figures/eth_sum_48.png -> /usr/share/help/C/mate-netspeed-applet/figures/eth_sum_48.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-netspeed-applet/figures/ethernet.png -> /usr/share/help/C/mate-netspeed-applet/figures/ethernet.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-netspeed-applet/figures/loopback.png -> /usr/share/help/C/mate-netspeed-applet/figures/loopback.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-netspeed-applet/figures/netspeed_applet.png -> /usr/share/help/C/mate-netspeed-applet/figures/netspeed_applet.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-netspeed-applet/figures/plip.png -> /usr/share/help/C/mate-netspeed-applet/figures/plip.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-netspeed-applet/figures/ppp.png -> /usr/share/help/C/mate-netspeed-applet/figures/ppp.png
--rw-r--r--	root/root	usr/share/help/fr/mate-netspeed-applet/figures/settings.png
-lrwxrwxrwx	root/root	usr/share/help/fr/mate-netspeed-applet/figures/wavelan.png -> /usr/share/help/C/mate-netspeed-applet/figures/wavelan.png
--rw-r--r--	root/root	usr/share/help/fr/mate-netspeed-applet/index.docbook
--rw-r--r--	root/root	usr/share/help/fr/mate-netspeed-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/fr/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/fr/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/fr/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1313,13 +1185,6 @@ drwxr-xr-x	root/root	usr/share/help/ko/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/ko/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/ko/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/ko/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/ko/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/ko/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/ko/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/ko/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/ko/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/ko/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/ko/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ko/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/ko/mate-stickynotes-applet/figures/
 lrwxrwxrwx	root/root	usr/share/help/ko/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1467,13 +1332,6 @@ drwxr-xr-x	root/root	usr/share/help/oc/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/oc/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/oc/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/oc/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/oc/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/oc/mate-multiload/figures/
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-multiload/figures/multiload-preferences.png -> /usr/share/help/C/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/oc/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/oc/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/oc/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/oc/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/oc/mate-stickynotes-applet/figures/
 lrwxrwxrwx	root/root	usr/share/help/oc/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1525,13 +1383,6 @@ lrwxrwxrwx	root/root	usr/share/help/pa/mate-drivemount/figures/drivemount-applet
 lrwxrwxrwx	root/root	usr/share/help/pa/mate-drivemount/figures/drivemount-applet_status.png -> /usr/share/help/C/mate-drivemount/figures/drivemount-applet_status.png
 -rw-r--r--	root/root	usr/share/help/pa/mate-drivemount/index.docbook
 -rw-r--r--	root/root	usr/share/help/pa/mate-drivemount/legal.xml
-drwxr-xr-x	root/root	usr/share/help/pa/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/pa/mate-multiload/figures/
-lrwxrwxrwx	root/root	usr/share/help/pa/mate-multiload/figures/multiload-preferences.png -> /usr/share/help/C/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/pa/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/pa/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/pa/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/pa/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/pa/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/pa/mate-stickynotes-applet/figures/
 lrwxrwxrwx	root/root	usr/share/help/pa/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1595,26 +1446,6 @@ lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-cpufreq-applet/figures/cpufreq-ap
 lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-cpufreq-applet/figures/cpufreq-applet.png -> /usr/share/help/C/mate-cpufreq-applet/figures/cpufreq-applet.png
 -rw-r--r--	root/root	usr/share/help/pt_BR/mate-cpufreq-applet/index.docbook
 -rw-r--r--	root/root	usr/share/help/pt_BR/mate-cpufreq-applet/legal.xml
-drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-netspeed-applet/
-drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/details.png
-lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/eth_sum_48.png -> /usr/share/help/C/mate-netspeed-applet/figures/eth_sum_48.png
-lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/ethernet.png -> /usr/share/help/C/mate-netspeed-applet/figures/ethernet.png
-lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/loopback.png -> /usr/share/help/C/mate-netspeed-applet/figures/loopback.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/netspeed_applet.png
-lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/plip.png -> /usr/share/help/C/mate-netspeed-applet/figures/plip.png
-lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/ppp.png -> /usr/share/help/C/mate-netspeed-applet/figures/ppp.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/settings.png
-lrwxrwxrwx	root/root	usr/share/help/pt_BR/mate-netspeed-applet/figures/wavelan.png -> /usr/share/help/C/mate-netspeed-applet/figures/wavelan.png
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-netspeed-applet/index.docbook
--rw-r--r--	root/root	usr/share/help/pt_BR/mate-netspeed-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/pt_BR/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1683,13 +1514,6 @@ drwxr-xr-x	root/root	usr/share/help/ru/mate-geyes/figures/
 lrwxrwxrwx	root/root	usr/share/help/ru/mate-geyes/figures/geyes_applet.png -> /usr/share/help/C/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/ru/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/ru/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/ru/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/ru/mate-multiload/figures/
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-multiload/figures/multiload-preferences.png -> /usr/share/help/C/mate-multiload/figures/multiload-preferences.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-multiload/figures/system-monitor-applet_window.png -> /usr/share/help/C/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/ru/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/ru/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/ru/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/ru/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/ru/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/ru/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1782,26 +1606,6 @@ drwxr-xr-x	root/root	usr/share/help/sv/mate-geyes/figures/
 -rw-r--r--	root/root	usr/share/help/sv/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/sv/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/sv/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/sv/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/sv/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/sv/mate-multiload/figures/multiload-preferences.png
--rw-r--r--	root/root	usr/share/help/sv/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/sv/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/sv/mate-multiload/legal.xml
-drwxr-xr-x	root/root	usr/share/help/sv/mate-netspeed-applet/
-drwxr-xr-x	root/root	usr/share/help/sv/mate-netspeed-applet/figures/
--rw-r--r--	root/root	usr/share/help/sv/mate-netspeed-applet/figures/details.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-netspeed-applet/figures/eth_sum_48.png -> /usr/share/help/C/mate-netspeed-applet/figures/eth_sum_48.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-netspeed-applet/figures/ethernet.png -> /usr/share/help/C/mate-netspeed-applet/figures/ethernet.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-netspeed-applet/figures/loopback.png -> /usr/share/help/C/mate-netspeed-applet/figures/loopback.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-netspeed-applet/figures/netspeed_applet.png -> /usr/share/help/C/mate-netspeed-applet/figures/netspeed_applet.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-netspeed-applet/figures/plip.png -> /usr/share/help/C/mate-netspeed-applet/figures/plip.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-netspeed-applet/figures/ppp.png -> /usr/share/help/C/mate-netspeed-applet/figures/ppp.png
--rw-r--r--	root/root	usr/share/help/sv/mate-netspeed-applet/figures/settings.png
-lrwxrwxrwx	root/root	usr/share/help/sv/mate-netspeed-applet/figures/wavelan.png -> /usr/share/help/C/mate-netspeed-applet/figures/wavelan.png
--rw-r--r--	root/root	usr/share/help/sv/mate-netspeed-applet/index.docbook
--rw-r--r--	root/root	usr/share/help/sv/mate-netspeed-applet/legal.xml
 drwxr-xr-x	root/root	usr/share/help/sv/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/sv/mate-stickynotes-applet/figures/
 -rw-r--r--	root/root	usr/share/help/sv/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1894,13 +1698,6 @@ drwxr-xr-x	root/root	usr/share/help/uk/mate-geyes/figures/
 -rw-r--r--	root/root	usr/share/help/uk/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/uk/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/uk/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/uk/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/uk/mate-multiload/figures/
--rw-r--r--	root/root	usr/share/help/uk/mate-multiload/figures/multiload-preferences.png
--rw-r--r--	root/root	usr/share/help/uk/mate-multiload/figures/system-monitor-applet_window.png
--rw-r--r--	root/root	usr/share/help/uk/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/uk/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/uk/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/uk/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/uk/mate-stickynotes-applet/figures/
 lrwxrwxrwx	root/root	usr/share/help/uk/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -1993,13 +1790,6 @@ drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-geyes/figures/
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-geyes/figures/geyes_applet.png
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-geyes/index.docbook
 -rw-r--r--	root/root	usr/share/help/zh_CN/mate-geyes/legal.xml
-drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-multiload/
-drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-multiload/figures/
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-multiload/figures/multiload-preferences.png -> /usr/share/help/C/mate-multiload/figures/multiload-preferences.png
--rw-r--r--	root/root	usr/share/help/zh_CN/mate-multiload/figures/system-monitor-applet_window.png
-lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-multiload/figures/system_monitor.png -> /usr/share/help/C/mate-multiload/figures/system_monitor.png
--rw-r--r--	root/root	usr/share/help/zh_CN/mate-multiload/index.docbook
--rw-r--r--	root/root	usr/share/help/zh_CN/mate-multiload/legal.xml
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/
 drwxr-xr-x	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/figures/
 lrwxrwxrwx	root/root	usr/share/help/zh_CN/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png -> /usr/share/help/C/mate-stickynotes-applet/figures/stickynote-right-menu-lock.png
@@ -2104,44 +1894,29 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/mate-cpu-frequency-applet.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/mate-eyes-applet.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/mate-netspeed-applet.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/mate-sticky-notes-applet.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/devices/
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/devices/mate-netspeed-loopback.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/devices/mate-netspeed-plip.png
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/devices/mate-netspeed-ppp.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/mate-cpu-frequency-applet.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/mate-eyes-applet.png
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/mate-netspeed-applet.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/mate-sticky-notes-applet.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/mate-cpu-frequency-applet.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/mate-eyes-applet.png
--rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/mate-netspeed-applet.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/24x24/apps/mate-sticky-notes-applet.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/24x24/status/
--rw-r--r--	root/root	usr/share/icons/hicolor/24x24/status/mate-netspeed-wireless-100.png
--rw-r--r--	root/root	usr/share/icons/hicolor/24x24/status/mate-netspeed-wireless-25.png
--rw-r--r--	root/root	usr/share/icons/hicolor/24x24/status/mate-netspeed-wireless-50.png
--rw-r--r--	root/root	usr/share/icons/hicolor/24x24/status/mate-netspeed-wireless-75.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/mate-cpu-frequency-applet.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/mate-eyes-applet.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/mate-netspeed-applet.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/mate-sticky-notes-applet.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/mate-ax-applet.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/mate-netspeed-applet.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/mate-cpu-frequency-applet.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/mate-eyes-applet.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/mate-netspeed-applet.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/mate-sticky-notes-applet.svg
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
@@ -2205,8 +1980,6 @@ drwxr-xr-x	root/root	usr/share/mate-panel/applets/
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.DriveMountApplet.mate-panel-applet
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.GeyesApplet.mate-panel-applet
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.MateWeatherApplet.mate-panel-applet
--rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.MultiLoadApplet.mate-panel-applet
--rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.NetspeedApplet.mate-panel-applet
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.StickyNotesApplet.mate-panel-applet
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.TimerApplet.mate-panel-applet
 -rw-r--r--	root/root	usr/share/mate-panel/applets/org.mate.applets.TrashApplet.mate-panel-applet
@@ -2219,8 +1992,6 @@ drwxr-xr-x	root/root	usr/share/mate/ui/
 -rw-r--r--	root/root	usr/share/mate/ui/drivemount-applet-menu.xml
 -rw-r--r--	root/root	usr/share/mate/ui/geyes-applet-menu.xml
 -rw-r--r--	root/root	usr/share/mate/ui/mateweather-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate/ui/multiload-applet-menu.xml
--rw-r--r--	root/root	usr/share/mate/ui/netspeed-menu.xml
 -rw-r--r--	root/root	usr/share/mate/ui/stickynotes-applet-menu.xml
 -rw-r--r--	root/root	usr/share/mate/ui/trashapplet-menu.xml
 drwxr-xr-x	root/root	usr/share/pixmaps/
