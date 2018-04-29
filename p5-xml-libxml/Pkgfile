@@ -1,0 +1,18 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=p5-xml-libxml
+version=2.0132
+release=1
+source=(http://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-$version.tar.gz)
+
+build() {
+	cd XML-LibXML-$version
+
+    perl Makefile.PL INSTALLDIRS=vendor
+    make
+    
+    make pure_install doc_install DESTDIR=$PKG
+}

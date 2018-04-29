@@ -4,13 +4,16 @@
 # Depends on:
 
 name=libdbusmenu
-version=16.04.0
+version=git
 release=1
-source=(https://launchpad.net/libdbusmenu/16.04/16.04.0/+download/libdbusmenu-16.04.0.tar.gz)
+source=(https://launchpad.net/ubuntu/+archive/primary/+files/libdbusmenu_16.04.1+18.04.20171206.orig.tar.gz)
+git=(https://github.com/AyatanaIndicators/libdbusmenu.git)
 
 build() {
-	cd $name-$version
+#	cd $name-$version
 
+git clone $git $name
+cd $name
       gtkdocize
       autoreconf -vfi
       intltoolize -f

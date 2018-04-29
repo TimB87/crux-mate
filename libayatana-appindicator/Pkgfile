@@ -4,13 +4,17 @@
 # Depends on:
 
 name=libayatana-appindicator
-version=0.5.3
+version=git
 release=1
-source=(https://github.com/AyatanaIndicators/libayatana-appindicator/archive/$version/$name-$version.tar.gz)
+#source=(https://github.com/AyatanaIndicators/libayatana-appindicator/archive/$version/$name-$version.tar.gz)
+
+git=(https://github.com/AyatanaIndicators/libayatana-appidicator.git)
 
 build() {
-	cd $name-$version
-    
+#	cd $name-$version
+ 
+    git clone $git $name
+    cd $name
     ./autogen.sh
     ./configure --prefix=/usr \
             --disable-nls

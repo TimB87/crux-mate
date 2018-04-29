@@ -6,15 +6,15 @@
 name=libindicator
 version=12.10.1
 release=1
-source=(https://launchpad.net/$name/12.10/12.10.1/+download/$name-$version.tar.gz)
+source=(https://launchpad.net/libindicator/12.10/12.10.1/+download/libindicator-12.10.1.tar.gz)
 
 build() {
   cd $name-$version
   export CFLAGS="${CFLAGS} -Wno-error=deprecated-declarations"
   ./configure --prefix=/usr \
     --libexecdir=/usr/lib/$name \
-    --disable-{gtk-doc-html,mono-test,tests} \
-    --with-gtk=3
+    --disable-{gtk-doc-html,mono-test,tests}
+    #--with-gtk=3
   make
   make DESTDIR=$PKG install
   rm -fr $PKG/usr/share/gtk-doc

@@ -1,0 +1,21 @@
+# Description: A library to allow applications to export a menu into the Unity Menu bar
+# URL: https://launchpad.net/libappindicator
+# Maintainer:
+# Depends on:
+
+name=libappindicator
+version=12.10.0
+release=1
+source=(https://launchpad.net/libappindicator/12.10/12.10.0/+download/libappindicator-12.10.0.tar.gz no-python.patch)
+
+build() {
+    cd $name-$version
+    patch -p1 < $SRC/no-python.patch
+    #sed 's|/cli/|/mono/|' -i bindings/mono/{appindicator-sharp-0.1.pc.in,Makefile.in}
+    export CFLAGS="${CFLAGS} -Wno-error=deprecated-declarations -Wno-error=incompatible-pointer-types"
+    ./configure --prefix=/usr \
+                --with-gtk=3
+    make
+    make DESTDIR=$PKG install
+
+}

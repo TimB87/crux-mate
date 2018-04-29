@@ -9,7 +9,7 @@ release=1
 source=(https://github.com/AyatanaIndicators/ayatana-indicator-session/archive/$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
+    cd $name-$version
     
     mkdir build && cd build
     cmake ..
