@@ -2,3 +2,7 @@ mate.httpup
 \.git
 README.md
 \cryptsetup
+\gtk-sharp
+\libdbusmenu-glib
+\libdbusmenu-gtk2
+\libdbusmenu-gtk3
