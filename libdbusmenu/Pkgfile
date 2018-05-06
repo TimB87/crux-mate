@@ -1,7 +1,7 @@
 # Description: A small little library that was created by pulling out some comon code out of indicator-applet
 # URL: https://launchpad.net/libdbusmenu
 # Maintainer:
-# Depends on:
+# Depends on: json-glib
 
 name=libdbusmenu
 version=git
@@ -22,7 +22,7 @@ cd $name
       sed -i "s|^\(#!.*python\)$|\12|" tools/dbusmenu-bench
 
       # libdbusmenu-gtk2 won't install if libdbusmenu-glib is missing
-      sed -i 's|$(DBUSMENUGTK_CFLAGS)|$(DBUSMENUGTK_CFLAGS) -L../libdbusmenu-glib/.libs|' libdbusmenu-gtk/Makefile.{am,in}
+      #sed -i 's|$(DBUSMENUGTK_CFLAGS)|$(DBUSMENUGTK_CFLAGS) -L../libdbusmenu-glib/.libs|' libdbusmenu-gtk/Makefile.{am,in}
 
       mkdir build
       pushd build
