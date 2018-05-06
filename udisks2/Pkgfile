@@ -6,28 +6,30 @@
 name=udisks2
 version=2.7.6
 release=1
-source=(https://github.com/storaged-project/udisks/releases/download/udisks-2.7.6/udisks-2.7.6.tar.bz2)
+source=(https://github.com/storaged-project/udisks/releases/download/udisks-$version/udisks-$version.tar.bz2)
 
 build() {
-  cd udisks-$version
-  #sed -i -e '/^SUBDIRS =/ s/ doc//' Makefile.in
+    cd udisks-$version
+    #sed -i -e '/^SUBDIRS =/ s/ doc//' Makefile.in
+    
     sed -e 's/AC_MSG_ERROR(\[libstoragemgmt/AC_MSG_WARN([libstoragemgmt/' \
       -e 's/AC_MSG_ERROR(\[libconfig/AC_MSG_WARN([libconfig/' \
       -i configure.ac
-  ./configure --prefix=/usr \
-    --libexecdir=/usr/lib/$name \
-    --enable-fhs-media \
-    --disable-static \
-    --disable-lvm2 \
-    --disable-lvmcache \
-    --disable-lsm \
-    --disable-nls \
-    --without-gtk-doc
-  make
-  make DESTDIR=$PKG install
-  rm -r $PKG/usr/share/locale
-  install -d -m 0755 $PKG/media
-  rm -fr $PKG/usr/share/gtk-doc/
+    
+    ./configure --prefix=/usr \
+        --libexecdir=/usr/lib/$name \
+        --enable-fhs-media \
+        --disable-static \
+        --disable-lvm2 \
+        --disable-lvmcache \
+        --disable-lsm \
+        --disable-nls \
+        --enable-gtk-doc=no
+    make
+    make DESTDIR=$PKG install
+    rm -r $PKG/usr/share/locale
+    install -d -m 0755 $PKG/media
+    rm -fr $PKG/usr/share/gtk-doc/
 }
 
 # vim: set ts=2 et:
