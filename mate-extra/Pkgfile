@@ -11,7 +11,7 @@ source=()
 
 build() {
   install -d -m 0755 $PKG/etc
-  echo "MATE extra$version" >> $PKG/etc/mate_version
+  echo "MATE $version" >> $PKG/etc/mate_version
 }
 
 # vim: set ts=2 et:
