@@ -13,8 +13,10 @@ build() {
     cd $name-$version
 
     ./configure \
-        --prefix=/usr --enable-libargon2 \
-        --with-crypto_backend=openssl
+        --prefix=/usr \
+        --enable-libargon2 \
+        --with-crypto_backend=openssl \
+        --disable-nls
 
     make
     make DESTDIR=$PKG install
