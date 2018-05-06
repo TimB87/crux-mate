@@ -10,8 +10,9 @@ source=(https://github.com/storaged-project/libblockdev/releases/download/$versi
 
 
 build() {
-	cd $name-$version
-  ./configure --prefix=/usr \
+    cd $name-$version
+    
+    ./configure --prefix=/usr \
         --without-lvm_dbus \
         --without-dm \
         --without-lvm \
