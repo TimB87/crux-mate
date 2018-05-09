@@ -273,10 +273,10 @@ f:7a0cd9e1746761b14d643acd9ff13dbd:mate-icon-theme-faenza/Pkgfile
 f:f34eedd584c2cc4bfc96e581dfc3adf1:mate-icon-theme-faenza/post-install
 f:e5b2289a38ed5cf73ac930330306d8e4:mate-icon-theme-faenza/.footprint
 f:a31feb1fe3f3c941227a058d8a5301d6:mate-icon-theme-faenza/.md5sum
-f:cbbd18fe9fa0f93efb57dad7279a3416:librsvg/Pkgfile
+f:4ca2e7507b18ed4c9dce76d628a0d8f3:librsvg/Pkgfile
 f:61896a8322c5f22b630ebc8c9c5e622a:librsvg/post-install
 f:910cd3e3849e1d3f2c5d0a91f3b2b0c1:librsvg/README
-f:a27ba01cdba64fb4cd489ba8c850d37d:librsvg/.footprint
+f:db38a60d36fcaba761beefb7b00c79ba:librsvg/.footprint
 f:074496e5ee4be16f7a4d9f532708d8c8:librsvg/.md5sum
 f:0e1a1b2f769977c182c66b4b5d57461e:mate-polkit/Pkgfile
 f:6646a70108b49a080ec47c93174074ec:mate-polkit/.footprint
@@ -294,8 +294,8 @@ f:f49f25b54a7f1a4de4a31ab69e16150f:mate-indicator-applet/Pkgfile
 f:49987969b9699de62c088c8dea14a365:mate-indicator-applet/post-install
 f:69a98042dfca2f177238972fbfcac43a:mate-indicator-applet/.footprint
 f:bd8cff6e748e41ff0f15bb6d9655ba23:mate-indicator-applet/.md5sum
-f:951dc8b2039f18cacf51371132852f05:p5-xml-libxml/Pkgfile
-f:f6b767cda404aa8e69380e0807f6d74c:p5-xml-libxml/.footprint
+f:3d24a04b1402a5cf8e7c255cb7620dd1:p5-xml-libxml/Pkgfile
+f:55f48c6b400d8d000953591a2240aef5:p5-xml-libxml/.footprint
 f:655ac07d6c85bebaea1f1007da6803b6:p5-xml-libxml/.md5sum
 f:9f2a10bc142bbb8007268e7e918d8ad3:libmateweather/Pkgfile
 f:14d98003ef83dad58037a4c0923646e5:libmateweather/post-install
