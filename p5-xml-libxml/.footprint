@@ -3,7 +3,6 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/perl5/
 drwxr-xr-x	root/root	usr/lib/perl5/5.24/
 drwxr-xr-x	root/root	usr/lib/perl5/5.24/linux-thread-multi/
--rw-r--r--	root/root	usr/lib/perl5/5.24/linux-thread-multi/perllocal.pod
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/
@@ -56,7 +55,6 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/XML/LibXML/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/auto/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/auto/XML/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/auto/XML/LibXML/
--rw-r--r--	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/auto/XML/LibXML/.packlist
 -r-xr-xr-x	root/root	usr/lib/perl5/site_perl/5.24/linux-thread-multi/auto/XML/LibXML/LibXML.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/

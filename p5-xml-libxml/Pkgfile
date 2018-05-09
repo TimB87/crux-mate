@@ -17,5 +17,5 @@ build() {
     make pure_install doc_install DESTDIR=$PKG
     
     rm -r $PKG/usr/lib/perl5/5.24/linux-thread-multi/perllocal.pod
-    rm -r $PKG/usr/lib/perl5/site_perl/5.2.4/linux-thread-multi/auto/XML/LibXML/.packlist
+    rm -r $PKG/usr/lib/perl5/site_perl/5.24/linux-thread-multi/auto/XML/LibXML/.packlist
 }
