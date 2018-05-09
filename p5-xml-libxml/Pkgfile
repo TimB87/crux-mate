@@ -1,5 +1,5 @@
-# Description:
-# URL:
+# Description: The XML-LibXML CPAN Distribution for Processing XML using the libxml2 library
+# URL: https://github.com/shlomif/perl-XML-LibXML
 # Maintainer:
 # Depends on:
 
@@ -15,4 +15,7 @@ build() {
     make
     
     make pure_install doc_install DESTDIR=$PKG
+    
+    rm -r $PKG/usr/lib/perl5/5.24/linux-thread-multi/perllocal.pod
+    rm -r $PKG/usr/lib/perl5/site_perl/5.2.4/linux-thread-multi/auto/XML/LibXML/.packlist
 }
